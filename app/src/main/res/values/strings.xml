@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Prominent Color Sample</string>
+    <string name="change_image">Change Image and Get Color</string>
+    <string name="changed_color">Changed color</string>
+</resources>
