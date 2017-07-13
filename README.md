@@ -47,19 +47,18 @@ Android Library to get average/prominent of bitmap/drawable
 
 ### Example 1
  
-  ProminentColor prominentColor = new ProminentColor();
-  
-              prominentColor.setBitmap(bitmap);
-            prominentColor.getColor(new ProminentColorListener() {
-
-                @Override
-                public void onGettingColor(int color) {
-                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-                        getWindow().setStatusBarColor(color);
-                    }
-                    colorButton.setBackgroundColor(color);
-                }
-            });
+    ProminentColor prominentColor = new ProminentColor();   
+    
+    prominentColor.setBitmap(bitmap);
+    prominentColor.getColor(new ProminentColorListener() {
+    @Override
+    public void onGettingColor(int color) {
+    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+    getWindow().setStatusBarColor(color)
+    }
+    colorButton.setBackgroundColor(color);
+    }
+    });
    
 ### LICENSE
 
