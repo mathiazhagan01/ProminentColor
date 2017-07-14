@@ -44,8 +44,6 @@ Android Library to get average/prominent color of bitmap/drawable
 
 ![Screenshot](./2.png)
 
-![Screenshot](./3.png)
-
 ![Screenshot](./4.png)
 
 ### Example 1
