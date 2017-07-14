@@ -2,7 +2,11 @@
 Android Library to get average/prominent color of bitmap/drawable
 
 [![](https://jitpack.io/v/mathiazhagan01/ProminentColor.svg)](https://jitpack.io/#mathiazhagan01/ProminentColor)
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-ProminentColor-blue.svg?style=flat-square)](https://android-arsenal.com/details/1/5979)
+[![Codix](https://codix.io/gh/badge/mathiazhagan01/ProminentColor)](https://codix.io/gh/repo/mathiazhagan01/ProminentColor)
 [![](https://az743702.vo.msecnd.net/cdn/kofi4.png?v=b)](https://ko-fi.com/A8817MW)
+
+If you like the library, please rate us on <a href="https://codix.io/gh/repo/mathiazhagan01/ProminentColor">codix.io!</a>
 
 ### Gradle
 
