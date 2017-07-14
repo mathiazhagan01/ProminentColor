@@ -1,5 +1,5 @@
 # ProminentColor
-Android Library to get average/prominent of bitmap/drawable
+Android Library to get average/prominent color of bitmap/drawable
 
 [![](https://jitpack.io/v/mathiazhagan01/ProminentColor.svg)](https://jitpack.io/#mathiazhagan01/ProminentColor)
 [![](https://az743702.vo.msecnd.net/cdn/kofi4.png?v=b)](https://ko-fi.com/A8817MW)
