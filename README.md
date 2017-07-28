@@ -12,38 +12,40 @@ If you like the library, please rate us on <a href="https://codix.io/gh/repo/mat
 
 #### Step 1. Add the JitPack repository to your build file
   Add it in your root build.gradle at the end of repositories:
-    
-    allprojects {
-		repositories {
-			...
-			maven { url "https://jitpack.io" }
-		  }
-	  }
+  
+``` gradle
+allprojects {
+	repositories {
+		// ...
+		maven { url "https://jitpack.io" }
+	}
+}
+```
 #### Step 2. Add the dependency
-    
-    dependencies {
-	        compile 'com.github.mathiazhagan01:ProminentColor:v1.0'
-	  }
-	  
+``` gradle
+dependencies {
+	compile 'com.github.mathiazhagan01:ProminentColor:v1.0'
+}
+```	  
 ### Maven
 
 #### Step 1. Add the JitPack repository to your build file
-
-    <repositories>
-		  <repository>
-		      <id>jitpack.io</id>
-		      <url>https://jitpack.io</url>
-		  </repository>
-	  </repositories>
-	  
+``` xml
+<repositories>
+	<repository>
+		<id>jitpack.io</id>
+		<url>https://jitpack.io</url>
+	</repository>
+</repositories>
+```  
 #### Step 2. Add the dependency
-	
-	  <dependency>
-	      <groupId>com.github.mathiazhagan01</groupId>
-	      <artifactId>ProminentColor</artifactId>
-	      <version>V1.0</version>
-	  </dependency>
-
+``` xml	
+<dependency>
+	<groupId>com.github.mathiazhagan01</groupId>
+	<artifactId>ProminentColor</artifactId>
+	<version>V1.0</version>
+</dependency>
+```
 ![Screenshot](./1.png)
 
 ![Screenshot](./2.png)
@@ -51,20 +53,21 @@ If you like the library, please rate us on <a href="https://codix.io/gh/repo/mat
 ![Screenshot](./4.png)
 
 ### Example 1
- 
-    ProminentColor prominentColor = new ProminentColor();   
-    
-    prominentColor.setBitmap(bitmap);
-    prominentColor.getColor(new ProminentColorListener() {
-    @Override
-    public void onGettingColor(int color) {
-    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-    getWindow().setStatusBarColor(color)
-    }
-    colorButton.setBackgroundColor(color);
-    }
-    });
-   
+ ``` java
+ProminentColor prominentColor = new ProminentColor();   
+
+prominentColor.setBitmap(bitmap);
+prominentColor.getColor(new ProminentColorListener() {
+	@Override
+	public void onGettingColor(int color) {
+		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+			getWindow().setStatusBarColor(color)
+		}
+
+		colorButton.setBackgroundColor(color);
+	}
+});
+```
 ### LICENSE
 
 	ProminentColor library for Android
